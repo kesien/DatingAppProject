@@ -1,0 +1,13 @@
+### Create a new value
+POST http://localhost:5000/api/values
+Content-Type: application/json
+
+{
+    "name": "Fourth"
+}
+
+### Get all values
+GET http://localhost:5000/api/values
+
+### Get a value
+GET http://localhost:5000/api/values/1
